@@ -1,0 +1,29 @@
+.contact {
+    position: relative;
+}
+
+.inpu {
+    padding: 0px 10px;
+    background: transparent;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #04AA6D;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.labe {
+    position: absolute;
+    top: -10px;
+    left: 50px;
+    font-size: 14px;
+    padding: 0px 5px;
+    transition: 0.3s;
+    pointer-events: none;
+    text-transform: capitalize;
+    color: #04AA6D;
+    background-color: #fff;
+    cursor: pointer;
+}

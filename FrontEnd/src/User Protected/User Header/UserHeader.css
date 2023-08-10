@@ -1,0 +1,29 @@
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width:940px) {
+    .hamburger {
+        position: absolute;
+        display: block;
+        z-index: 1;
+        right: 0;
+    }
+
+    .nav-menu {
+        position: relative;
+        left: 110%;
+        top: 50px;
+        flex-direction: column;
+        background-color: #37517e;
+        width: 100%;
+        height: 100vh;
+
+        text-align: center;
+        transition: .5s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+}
